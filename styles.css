@@ -1,0 +1,48 @@
+
+body{
+    text-align:center;
+    font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#333;
+    background:#fefefe;
+}
+#container{
+    margin:0 auto;
+}
+#container h1{
+    padding:0 10px 10px;    
+}
+.cars{
+    display:block;
+    position:relative;
+}
+#container button{
+    padding:10px 20px;
+    background-color:#099E44;
+    color:white;
+    font-size:1.1rem;
+    border:none;
+    cursor:pointer;
+}
+button#start{
+    margin:5px 20px 30px 0;
+}
+button#reset{
+    background:#CB202D;
+    margin:5px 0 30px 20px;
+}
+#racingtrack{
+    background:url("images/racetrack.png") left center repeat-x;
+    background-size:contain;
+    margin-bottom:30px;
+    border-right:solid 20px yellow;
+}
+#results{
+    width:80%;
+    height:200px;
+    margin:10px auto;
+}
+.carresult{
+    font-size:16px;
+    padding:10px;
+    display:none;
+}
